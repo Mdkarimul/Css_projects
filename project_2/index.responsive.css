@@ -1,0 +1,47 @@
+@media(max-width:950px){
+    nav {
+        justify-content: space-between;
+    }
+    nav ul{
+     position: absolute;
+     top: 10vh;
+     left: 0px;
+     width: 100%;
+     padding: 0px;
+     height: 0px;
+     overflow: hidden;
+     transition: all 0.5s;
+     background-color:#fff;
+    }
+    .show{
+    height:90vh;
+    }
+    nav ul li{
+        display: block;
+
+        width: 100%;
+        padding:15px 0px;
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(68, 68, 187);
+
+    }
+   
+    .logo span{
+        display: none;
+    }
+    .logo i {
+        display: block;
+    }
+
+    .hero-container{
+        min-height: auto;
+    }
+    .right-cont{
+        width: 100%;
+        padding:6vh 5vw;
+    }
+    .left-cont{
+    display: none;
+    }
+}

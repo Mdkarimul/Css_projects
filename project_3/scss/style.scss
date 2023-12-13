@@ -1,0 +1,205 @@
+// Custom.scss
+// Option B: Include parts of Bootstrap
+// @use './components/variable';
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+
+
+
+// 2. Include any default variable overrides here
+
+
+//NAVBAR CUSTOMIZATION IN BOOTSTRAP ===================================================================================================================
+$navbar-padding-y:10px;
+$navbar-padding-x:0px;
+// $navbar-nav-link-padding-x:         .5rem;
+
+$navbar-brand-font-size:0px;
+// Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link
+// $nav-link-height:                   $font-size-base * $line-height-base + $nav-link-padding-y * 2;
+$navbar-brand-height:0px;
+$navbar-brand-padding-y:0px;
+$navbar-brand-margin-end:1rem;
+
+// $navbar-toggler-padding-y:          .25rem;
+// $navbar-toggler-padding-x:          .75rem;
+// $navbar-toggler-font-size:          $font-size-lg;
+// $navbar-toggler-border-radius:      $btn-border-radius;
+ $navbar-toggler-focus-width:0px;
+// $navbar-toggler-transition:         box-shadow .15s ease-in-out;
+$navbar-dark-color:inherit;
+$navbar-dark-hover-color:white;
+$navbar-dark-active-color:white;
+// $navbar-dark-disabled-color:        rgba($white, .25);
+// $navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+// $navbar-dark-toggler-border-color:  rgba($white, .1);
+
+// $navbar-light-color:yellow;
+$navbar-light-hover-color:#ddd;
+ $navbar-light-active-color:#fff;
+// $navbar-light-disabled-color:       rgba($black, .3);
+ $navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+// $navbar-light-toggler-border-color: rgba($black, .1);
+
+// $navbar-light-brand-color:                $navbar-light-active-color;
+// $navbar-light-brand-hover-color:          $navbar-light-active-color;
+// $navbar-dark-brand-color:                 $navbar-dark-active-color;
+// $navbar-dark-brand-hover-color:           $navbar-dark-active-color;
+
+
+
+
+
+
+
+
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/bootstrap-utilities.scss";
+@import "../node_modules/bootstrap/scss/accordion";
+@import "../node_modules/bootstrap/scss/alert";
+@import "../node_modules/bootstrap/scss/badge";
+@import "../node_modules/bootstrap/scss/breadcrumb";
+@import "../node_modules/bootstrap/scss/button-group";
+@import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/card";
+@import "../node_modules/bootstrap/scss/carousel";
+@import "../node_modules/bootstrap/scss/close";
+@import "../node_modules/bootstrap/scss/dropdown";
+@import "../node_modules/bootstrap/scss/forms";
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/list-group";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/modal";
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/navbar";
+@import "../node_modules/bootstrap/scss/offcanvas";
+@import "../node_modules/bootstrap/scss/pagination";
+@import "../node_modules/bootstrap/scss/placeholders";
+@import "../node_modules/bootstrap/scss/popover";
+@import "../node_modules/bootstrap/scss/progress";
+@import "../node_modules/bootstrap/scss/spinners";
+@import "../node_modules/bootstrap/scss/tables";
+@import "../node_modules/bootstrap/scss/toasts";
+@import "../node_modules/bootstrap/scss/tooltip";
+@import "../node_modules/bootstrap/scss/transitions";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/utilities";
+
+
+// 4. Include any optional Bootstrap components as you like
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+
+// 5. Add additional custom code here
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Place variable overrides first, then import just the styles you need. Note that some stylesheets are required no matter what.
+
+// Toggle global options
+// $enable-gradients: true;
+// $enable-shadows: true;
+
+// $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+
+// Include functions first
+//@import "bootstrap/scss/functions";
+
+
+
+// Customize some defaults
+// $body-color: #333;
+// $body-bg: #fff;
+// $border-radius: .4rem;
+// $success: #7952b3;
+
+// Required
+// @import "bootstrap/scss/variables";
+// @import "bootstrap/scss/variables-dark";
+// @import "bootstrap/scss/maps";
+// @import "bootstrap/scss/mixins";
+// @import "bootstrap/scss/utilities";
+//@import "bootstrap/scss/root";
+//@import "bootstrap/scss/reboot";
+
+//@import "bootstrap/scss/type";
+// @import "bootstrap/scss/images";
+//@import "bootstrap/scss/containers";
+//@import "bootstrap/scss/grid";
+// @import "bootstrap/scss/tables";
+// @import "bootstrap/scss/forms";
+//@import "bootstrap/scss/buttons";
+//@import "bootstrap/scss/transitions";
+//@import "bootstrap/scss/dropdown";
+// @import "bootstrap/scss/button-group";
+// @import "bootstrap/scss/nav";
+// @import "bootstrap/scss/navbar"; // Requires nav
+// @import "bootstrap/scss/card";
+// @import "bootstrap/scss/breadcrumb";
+// @import "bootstrap/scss/accordion";
+// @import "bootstrap/scss/pagination";
+// @import "bootstrap/scss/badge";
+// @import "bootstrap/scss/alert";
+// @import "bootstrap/scss/progress";
+// @import "bootstrap/scss/list-group";
+//@import "bootstrap/scss/close";
+// @import "bootstrap/scss/toasts";
+//@import "bootstrap/scss/modal"; // Requires transitions
+// @import "bootstrap/scss/tooltip";
+//@import "bootstrap/scss/popover";
+// @import "bootstrap/scss/carousel";
+// @import "bootstrap/scss/spinners";
+//@import "bootstrap/scss/offcanvas"; // Requires transitions
+// @import "bootstrap/scss/placeholders";
+
+// Helpers
+// @import "bootstrap/scss/helpers";
+
+// Utilities
+//@import "bootstrap/scss/utilities/api";
+
+
+//
+// Custom styles
+//
+
+// @import "icon-list";
+
+// body {
+//   padding: 1.5rem;
+// }

@@ -1,0 +1,29 @@
+
+
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255 223, 223, 0.856);
+    
+}
+
+
+.container{
+    border: 1px solid red;
+    margin:auto;
+    width: 80%;
+    height: 90vh;
+    background-color: aliceblue; 
+     -webkit-mask-image: url('../images/w3logo.png');
+    mask-image: url(../images/w3logo.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;   
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-size:50%;
+    mask-size: 50%;
+
+}
